@@ -10,7 +10,7 @@ class team
             elementNum=0;
         }
         int element[1000];
-        int elementNum;
+        int elementNum;//How many element are in each team
 };
 
 main()
@@ -27,6 +27,14 @@ main()
         if(teamNum==0)
         {
 
+        }
+        for(int i=0;i<teamNum;i++)
+        {
+            cin>>queue[i].elementNum;
+            for(int j=0;j<queue[i].elementNum;j++)
+            {
+                cin>>queue[i].element[j];
+            }
         }
 
     }
