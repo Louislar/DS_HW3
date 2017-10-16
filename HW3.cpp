@@ -20,13 +20,14 @@ main()
                                //2. team* queue=new team[1000]
                                //heap? stack? what's the different
                                //https://stackoverflow.com/questions/22578879/is-it-possible-to-store-10-million-numbers-in-array
+    team* teamQueue=new team[];//undone
     //input
-    {
+    while(1){
         int teamNum;
         cin>>teamNum;
         if(teamNum==0)
         {
-
+			break;
         }
         for(int i=0;i<teamNum;i++)
         {
